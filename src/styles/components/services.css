@@ -1,0 +1,38 @@
+.services {
+  text-align: center;
+}
+
+.services__inner {
+  padding-block: 138px;
+}
+
+.services__list {
+  display: flex;
+  column-gap: 171px;
+  justify-content: center;
+}
+
+.services__item {
+  max-width: 284px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 22px;
+}
+
+.services__text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
+.services__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.33;
+}
+
+.services__description {
+  color: var(--color-gray);
+  line-height: 1.25;
+}

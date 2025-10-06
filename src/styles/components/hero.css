@@ -1,6 +1,8 @@
 .hero {
+  /* stylelint-disable-next-line prettier/prettier */
   background-image: url("../../assets/images/hero/overlay.png"), url('../../assets/images/hero/bg.jpg');
   background-color: #eedbca;
+  /* stylelint-disable-next-line prettier/prettier */
   background-position: center 541px, center;
   background-repeat: repeat-x, no-repeat;
   min-height: 641px;

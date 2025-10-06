@@ -5,15 +5,75 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-
-    <style media="(prefers-color-scheme: light)">
-      @import url('./src/styles/colors/light.css');
-    </style>
-    <style media="(prefers-color-scheme: dark)">
-      @import url('./src/styles/colors/dark.css');
-    </style>
   </head>
   <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="header__top-inner container">
+          <p class="header__top-description">Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</p>
+          <div class="header__top-actions">
+            <div class="header__top-links">
+              <a href="" class="header__top-link">Sign In</a>
+              /
+              <a href="" class="header__top-link">Register</a>
+            </div>
+            <details class="header__top-dropdown">
+              <summary>USD</summary>
+            </details>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__bottom-inner container">
+          <a href="/" class="header__bottom-logo logo">
+            <img src="./src/assets/images/logo.svg" alt="Logo" />
+          </a>
+          <nav class="header__bottom-menu">
+            <ul class="header__bottom-list">
+              <li class="header__bottom-item is-active">
+                <a href="/" class="header__bottom-link">Home</a>
+              </li>
+              <li class="header__bottom-item">
+                <a href="/" class="header__bottom-link">Shop</a>
+              </li>
+              <li class="header__bottom-item">
+                <a href="/" class="header__bottom-link">Faq's</a>
+              </li>
+              <li class="header__bottom-item">
+                <a href="/" class="header__bottom-link">Stockists</a>
+              </li>
+              <li class="header__bottom-item">
+                <a href="/" class="header__bottom-link">Wholesale</a>
+              </li>
+              <li class="header__bottom-item">
+                <a href="/" class="header__bottom-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__bottom-actions">
+            <button class="header__bottom-search">
+              <img src="./src/assets/images/search.svg" alt="" />
+            </button>
+            <button class="header__bottom-cart">
+              <img src="./src/assets/images/cart.svg" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <h1 class="visually-hidden">Good4Me</h1>
+      <section class="hero">
+        <div class="hero__inner container">
+          <div class="hero__content">
+            <h2 class="hero__content-subtitle">Good4Me</h2>
+            <h3 class="hero__content-title">Apple Cider Vinegar</h3>
+            <p class="hero__content-description">Good4Me Apple Cider Vinegar gummies are the newest addition to your morning health and well-being regime. </p>
+            <button class="hero__content-button button">Shop Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>

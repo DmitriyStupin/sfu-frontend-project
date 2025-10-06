@@ -1,7 +1,5 @@
 .container {
   width: 100%;
-  padding-left: 8px;
-  padding-right: 8px;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -16,8 +14,6 @@
 @media (--md-viewport) {
   .container {
     max-width: 768px;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 }
 
@@ -29,6 +25,6 @@
 
 @media (--xl-viewport) {
   .container {
-    max-width: 1312px;
+    max-width: 1675px;
   }
 }

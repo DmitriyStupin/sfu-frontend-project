@@ -2,8 +2,16 @@
   text-transform: uppercase;
   color: var(--color-white);
   line-height: 1.25;
-  padding: 13px 25px;
+  padding: 12px 24px;
   font-weight: 500;
   background: var(--color-primary);
   border: none;
+}
+
+.button--transparent {
+  border: 2px solid var(--color-primary);
+  color: var(--color-black);
+  background: transparent;
+  line-height: 1.56;
+  padding: 16px 48px;
 }

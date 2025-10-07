@@ -1,10 +1,8 @@
-.products {
-}
-
 .products__inner {
   display: flex;
   flex-direction: column;
   padding-top: 136px;
+  padding-bottom: 111px;
   row-gap: 58px;
 }
 
@@ -23,9 +21,23 @@
 }
 
 .products__link {
+  position: relative;
   display: flex;
   flex-direction: column;
   row-gap: 22px;
+}
+
+.products__link::after {
+  position: absolute;
+  content: 'ON SALE';
+  font-size: 10px;
+  color: var(--color-white);
+  letter-spacing: 0.1em;
+  line-height: 1;
+  background: var(--color-primary);
+  padding: 5px 9px;
+  right: 11px;
+  top: 11px;
 }
 
 .products__info {

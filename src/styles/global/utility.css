@@ -17,3 +17,22 @@ body {
   clip-path: inset(100%);
   overflow: hidden;
 }
+
+.hr {
+  content: '';
+  display: block;
+  position: relative;
+  width: 127px;
+  border: none;
+  height: 4px;
+  margin: 20px auto 25px;
+  background-color: var(--color-primary);
+}
+
+.fa-star {
+  color: var(--color-empty-star);
+}
+
+.checked {
+  color: var(--color-yellow);
+}

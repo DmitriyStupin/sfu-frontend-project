@@ -16,17 +16,6 @@
   line-height: 0.89;
 }
 
-.hr {
-  content: '';
-  display: block;
-  position: relative;
-  width: 127px;
-  border: none;
-  height: 4px;
-  margin: 20px auto 25px;
-  background-color: var(--color-primary);
-}
-
 .collections__description {
   line-height: 1.33;
   font-size: 18px;

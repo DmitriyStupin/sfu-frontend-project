@@ -1,5 +1,5 @@
 .range {
-  background: linear-gradient(90deg, var(--color-pink) 58%, var(--color-white) 50%);
+  background: linear-gradient(90deg, var(--color-pink) 50%, var(--color-white) 50%);
 }
 
 .range__inner {

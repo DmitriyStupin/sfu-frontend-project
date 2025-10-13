@@ -13,7 +13,13 @@
 .news__list {
   display: flex;
   justify-content: center;
-  column-gap: 20px;
+  gap: 20px;
+
+  @media (width <= 1023px) {
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
 }
 
 .news__item {

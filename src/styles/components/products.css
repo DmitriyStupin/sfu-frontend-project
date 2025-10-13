@@ -15,9 +15,15 @@
 
 .products__list {
   display: flex;
+  gap: 30px;
   align-items: center;
   justify-content: space-between;
   text-align: center;
+
+  @media (width <= 1280px) {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .products__link {

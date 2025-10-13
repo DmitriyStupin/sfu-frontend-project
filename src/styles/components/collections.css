@@ -25,7 +25,11 @@
 
 .collections__list {
   display: flex;
-  column-gap: 30px;
+  gap: 30px;
+
+  @media (width <= 768px) {
+    flex-direction: column;
+  }
 }
 
 .collections__link {

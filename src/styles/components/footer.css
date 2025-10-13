@@ -1,12 +1,22 @@
 .footer {
   background-color: var(--color-pink);
   padding-top: 159px;
+
+  @media (width <= 1280px) {
+    padding-top: 50px;
+  }
 }
 
 .footer__top {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+
+  @media (width <= 1280px) {
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .footer__about {
@@ -43,7 +53,8 @@
 }
 
 .footer__subscribe-form {
-  width: 571px;
+  max-width: 571px;
+  width: 100%;
   position: relative;
 }
 
@@ -103,12 +114,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (width <= 1280px) {
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+  }
 }
 
 .footer__soc1als-list {
   display: flex;
   column-gap: 20px;
-  margin-right: 270px;
 }
 
 .footer__copyright {

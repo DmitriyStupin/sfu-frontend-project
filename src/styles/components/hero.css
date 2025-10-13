@@ -1,11 +1,15 @@
 .hero {
   /* stylelint-disable-next-line prettier/prettier */
-  background-image: url("../../assets/images/hero/overlay.png"), url('../../assets/images/hero/bg.jpg');
+  background-image: url('../../assets/images/hero/bg.jpg');
   background-color: #eedbca;
   /* stylelint-disable-next-line prettier/prettier */
-  background-position: center 541px, center;
-  background-repeat: repeat-x, no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
   min-height: 641px;
+
+  @media (width <= 1023px) {
+    background-position: inherit;
+  }
 }
 
 .hero__inner {
@@ -14,10 +18,24 @@
   justify-content: flex-end;
   padding-right: 267px;
   padding-top: 152px;
+
+  @media (width <= 768px) {
+    padding-right: 150px;
+    padding-top: 170px;
+  }
+
+  @media (width <= 576px) {
+    padding-right: 90px;
+    padding-top: 180px;
+  }
 }
 
 .hero__content {
   max-width: 530px;
+
+  @media (width <= 768px) {
+    max-width: none;
+  }
 }
 
 .hero__content-subtitle {
@@ -26,6 +44,10 @@
   line-height: 1.62;
   font-weight: 600;
   margin-bottom: 4px;
+
+  @media (width <= 768px) {
+    font-size: 20px;
+  }
 }
 
 .hero__content-title {
@@ -33,6 +55,10 @@
   line-height: 1.29;
   font-weight: 600;
   margin-bottom: 11px;
+
+  @media (width <= 768px) {
+    font-size: 36px;
+  }
 }
 
 .hero__content-description {

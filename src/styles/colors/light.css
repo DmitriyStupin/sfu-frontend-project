@@ -1,6 +1,13 @@
 :root {
   color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+  --color-primary: #f6623e;
+  --color-secondary: #454545;
+  --color-gray: #9d9d9d;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-pink: #fff8f6;
+  --color-peach: #fef0e7;
+  --color-yellow: #ffc107;
+  --color-empty-star: #d8d8d8;
 }

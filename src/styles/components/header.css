@@ -12,6 +12,12 @@
   justify-content: space-between;
   align-items: center;
   padding-block: 15px;
+
+  @media (width <= 1023px) {
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 14px;
+  }
 }
 
 .header__top-actions {
@@ -32,14 +38,17 @@
   padding-block: 29px;
   display: flex;
   align-items: center;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .header__bottom-logo {
-  margin-right: 270px;
 }
 
 .header__bottom-menu {
-  margin-right: 392px;
+  @media (width <= 1023px) {
+    display: none;
+  }
 }
 
 .header__bottom-list {
@@ -70,4 +79,19 @@
 .header__bottom-actions {
   display: flex;
   column-gap: 15px;
+}
+
+.header__bottom-burger-menu {
+  display: none;
+
+  @media (width <= 1023px) {
+    display: block;
+  }
+}
+
+.header__bottom-burger-menu-line {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }
